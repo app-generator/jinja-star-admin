@@ -1,6 +1,6 @@
 {% extends "layouts/base-fullscreen.html" %}
 
-{% block title %} Sign IN {% endblock %} 
+{% block title %} Sign UP {% endblock %} 
 
 <!-- Specific CSS Plugins goes HERE  -->
 {% block css_plugins %}{% endblock css_plugins %}
@@ -23,11 +23,14 @@
               </h4>
               <br />
               <h6 class="fw-light">
-                Sign in to continue.
+                Sign UP - add your credentials
               </h6>
               <form class="pt-3">
                 <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username">
+                  <input class="form-control form-control-lg" id="exampleInputUser" placeholder="Username">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Email">
                 </div>
                 <div class="form-group">
                   <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
@@ -39,14 +42,14 @@
                   <div class="form-check">
                     <label class="form-check-label text-muted">
                       <input type="checkbox" class="form-check-input">
-                      Keep me signed in
+                      Agree Terms
                     </label>
                   </div>
-                  <a href="/register.html" class="auth-link text-black">Create Account</a>
+                  <a href="/login.html" class="auth-link text-black">Login</a>
                 </div>
                 <div class="text-center mt-4 fw-light">
-                  &copy; <a target="_blank" href="https://bit.ly/2UTgih5">BootstrapDash</a>
-                   - coded by AppSeed.
+                  &copy; <a target="_blank" href="https://bit.ly/2UTgih5">BootstrapDash</a> 
+                  - coded by AppSeed.
                   <br/><br/>
                   <a target="_blank"
                      href="https://appseed.us/admin-dashboards/flask-star-admin">Download Product</a>
