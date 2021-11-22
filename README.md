@@ -28,8 +28,8 @@ The project can be used as a codebase for future project or to migrate the Jinja
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/jinja-dashboard-volt.git
-$ cd jinja-dashboard-volt
+$ git clone https://github.com/app-generator/jinja-star-admin.git
+$ cd jinja-star-admin
 ```
 
 > Start the app in Docker
